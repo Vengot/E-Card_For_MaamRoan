@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Special Note for Ma'am Roan</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background floating elements -->
+  <div class="glow-bg"></div>
+  <div class="floating-heart heart-1">💜</div>
+  <div class="floating-heart heart-2">✨</div>
+  <div class="floating-heart heart-3">🌸</div>
+
+  <!-- Main Screen Container -->
+  <div class="envelope-wrapper">
+    <div class="envelope">
+      <div class="wax-seal">R</div>
+      <h1 class="envelope-title">FOR MA'AM ROAN ONLY!!!</h1>
+      <p class="envelope-subtitle">HEHEHEHE
+      </p>
+      
+      <button class="open-btn" id="openCardBtn">
+        <span class="sparkle">✦</span> Open the Letter <span class="sparkle">✦</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- The Popup Modal (Hidden by default) -->
+  <div class="modal-backdrop" id="ecardModal">
+    <div class="greeting-card">
+      
+      <div class="card-border-inner">
+        <h2 class="salutation">Dearest Ma'am Roan,</h2>
+        
+        <div class="message-body">
+          <p>
+            Hi Ma'am Roan!!!! First of all Ma'am, THANK YOU SO MUCH PO!!!! for being my prof for this sem and prev sem din po. Hindi ko po ma-express sa inyo fully kung gaano po ako ka-thankful sa inyo.
+          </p>
+          
+          <p>
+            I know po na hindi po ako yung madaling turuan na estudyante, pero I give my best po to learn from you always. And I know po na may nagawa ako sa inyo before na hindi maganda, pero pinagbigyan nyo pa din po ako kahit nga po ganon. SUPER THANKFUL PO AKO MA'AM.
+          </p>
+          
+          <p>
+            Ma'am, Thank you po talaga for everything. Thank you po sa mga turo nyo! Hindi ko po iyon makakalimutan. (sana. eme AWHHAWWA) pero kidding aside Ma'am. Thank you for teaching us and being approachable sa amin kahit nasa labas po tayo ng room. Super grateful po talaga ako Ma'am. Thank you po &lt;3
+          </p>
+
+          <p>
+            Btw Ma'am, Advance Merry Christmas po hehe [GCASH NUMB KO PO : 0955 402 9693] ................... Advance Thank you po <3
+          </p>
+
+        </div>
+        
+        <div class="sign-off">
+          <p class="signature">Ang katabi ni poging Adao,</p>
+          <p class="signed-name">Reyven :&gt;</p>
+        </div>
+        
+        <div class="card-footer">
+          <button class="close-btn" id="closeCardBtn">Keep the message 💌</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
